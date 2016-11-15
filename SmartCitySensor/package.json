@@ -1,0 +1,30 @@
+{
+  "name": "mobilesensorApp",
+  "version": "1.0.0",
+  "description": "City Transport System Mobile Sensor IAAS",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "express": "^4.11.1",
+    "mongojs": "^0.18.1",
+	"moment": "^2.8.0",
+	"moment-timezone": "^0.5.2",
+	"timezonecomplete": "*",
+	"node-geocoder": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purva5194/CloudIass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/purva5194/CloudIass/issues/1"
+  },
+  "homepage": "https://github.com/purva5194/CloudIass.git"
+}
